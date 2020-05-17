@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Csapó Maja portfólió </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8";>
+<style>
+body {
+  margin: 0;
+  font-family: Lucida Calligraphy, Helvetica, sans-serif;
+  background-color: #DCCCB6;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #DCCCB6;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DCCCB6;
+  color: black;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+</style>
+</head>
+<body>
+<img src="portfolio.png" alt="Csapó Maja portfólió" width="100%" align="center" style="padding: 0px">
+<!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="index.html" >Home</a>
+  </div>
+  
+  <!-- Left-aligned links (default) -->
+  <a href="bemutatkozás.html">Bemutatkozás</a>
+  <a href="kapcsolat.html"class="active">Kapcsolatok</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="hobbi.html">Hobbim</a>
+    <a href="képek.html">Képek</a>
+  </div>
+</div>
+
+<table
+style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;"
+border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: middle; text-align: center;">
+<a href="https://www.facebook.com/profile.php?id=100006095297848"target="_blank">
+<img
+style="width: 450px; height: 403px;" alt=""
+src="facebook.png"><br>
+</a>
+</td>
+<td style="vertical-align: middle; text-align: center;">
+<a href="https://www.instagram.com/majammmajaaja/"target="_blank">
+<img
+style="width: 450px; height: 454px;" alt=""
+src="insta.png"><br>
+</a>
+</td>
+<td style="vertical-align: middle; text-align: center;">
+<a href="mailto:csapo.maja@gmail.com"target="_blank">
+<img
+style="width: 450px; height: 450px;" alt=""
+src="gmail.png"><br>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
